@@ -1,0 +1,111 @@
+/* ===============================
+   RESET & BASE
+================================ */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #EBEBE0;
+    text-align: center;
+}
+
+/* ===============================
+   LOGO
+================================ */
+.logo-area {
+    padding: 20px;
+}
+
+.logo-area img {
+    width: 120px;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.title {
+    font-size: 3em;
+    margin: 10px 0 20px;
+}
+
+/* ===============================
+   NAVIGATION BAR
+================================ */
+.navbar {
+    background-color: #63B4C9;
+    padding: 20px 0;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin: 0 20px;
+}
+
+/* ===============================
+   MAIN WRAPPER (30px BELOW NAV)
+================================ */
+.wrapper {
+    margin-top: 30px;
+}
+
+/* ===============================
+   BEIGE CONTAINER (70%)
+================================ */
+.content-box {
+    width: 70%;
+    margin: auto;
+    background-color: #C5BCAB;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* ===============================
+   IMAGE BOX
+================================ */
+.image-box {
+    background-color: #FFFFFF;
+    border: 2px solid #4C3639;
+
+    /* exact padding from reference */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    flex: 1;
+}
+
+/* image sizing fix */
+.image-box img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===============================
+   TEXT BOX
+================================ */
+.text-box {
+    background-color: #FFFFFF;
+    border: 2px solid #4C3639;
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.text-box p {
+    font-size: medium;
+    line-height: 1.6;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+    margin: 30px 0;
+    font-size: small;
+}
